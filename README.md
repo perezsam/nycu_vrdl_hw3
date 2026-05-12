@@ -55,7 +55,7 @@ python train.py \
 
 ### 2. Local Validation
 
-To evaluate the local mAP on the validation set, the model relies on the strictly generated `share_val_coco.json`. The training script automatically evaluates this at designated epochs, but manual evaluation can be run via standard MMDetection testing tools against the `best_coco_segm_mAP_50_epoch_50.pth` checkpoint.
+To evaluate the local mAP on the validation set, the model relies on the strictly generated `val_coco.json`. The training script automatically evaluates this at designated epochs, but manual evaluation can be run via standard MMDetection testing tools against the `best_coco_segm_mAP_50_epoch_50.pth` checkpoint.
 
 ### 3. Inference
 
