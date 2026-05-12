@@ -1,4 +1,4 @@
-# NYCU Computer Vision 2026 HW3: Instance Segmentation
+# NYCU Computer Vision 2026 HW3
 **Student ID:** 314540033
 
 **Name:** Samuel Perez 培雷斯
