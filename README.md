@@ -12,9 +12,6 @@ The core architecture utilizes a **Cascade Mask R-CNN** framework driven by a hi
 Due to severe dependency conflicts often encountered in the OpenMMLab ecosystem (PyTorch vs. MMCV versioning, OpenCV channel limits, and NumPy C-ABI compilation errors), **do not install dependencies manually.** A highly personalized deployment script (`setup_env.sh`) has been engineered to automatically orchestrate a pristine, GPU-accelerated Conda environment (`mmdet_prod`) with synchronous syntax patches.
 
 ```bash
-# Grant execution permissions to the script
-chmod +x setup_env.sh
-
 # Run the automated deployment pipeline
 bash setup_env.sh
 
